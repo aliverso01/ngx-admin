@@ -1,21 +1,144 @@
 import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
+
   {
-    title: 'E-commerce',
-    icon: 'shopping-cart-outline',
-    link: '/pages/dashboard',
-    home: true,
-  },
-  {
-    title: 'IoT Dashboard',
+    title: 'Dashboard',
     icon: 'home-outline',
     link: '/pages/iot-dashboard',
   },
   {
-    title: 'FEATURES',
+    title: 'Atendimento',
     group: true,
   },
+
+  {
+    title: 'Pessoas',
+    icon: 'people-outline',
+    children: [
+      {
+        title: 'Cadastrar',
+        link: '/pages/layout/cadastrar-pessoa',
+      },
+      {
+        title: 'Consultar',
+        link: '/pages/layout/list',
+      },
+    ],
+  },
+
+  {
+    title: 'Agenda',
+    icon: 'calendar-outline',
+    link: '/pages/layout/stepper',
+  },
+
+  {
+    title: 'Geolocalização',
+    icon: 'map-outline',
+    link: '/pages/layout/stepper',
+  },
+
+  {
+    title: 'Marketing',
+    group: true,
+  },
+
+
+  {
+    title: 'Planejamento',
+    icon: 'video-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Pesquisas',
+    icon: 'pie-chart-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+
+  {
+    title: 'Administrativo',
+    group: true,
+  },
+
+  {
+    title: 'Contratações',
+    icon: 'person-add-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Frota',
+    icon: 'car-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Combustível',
+    icon: 'car-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Despesas',
+    icon: 'trending-down-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Organograma',
+    icon: 'done-all-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+
+
+  {
+    title: 'Marketing',
+    group: true,
+  },
+
+
+  {
+    title: 'Planejamento',
+    icon: 'video-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Pesquisas',
+    icon: 'pie-chart-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+
+  {
+    title: 'Relatórios',
+    group: true,
+  },
+
+  {
+    title: 'Pessoas',
+    icon: 'person-add-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Marketing',
+    icon: 'car-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Pesquisas',
+    icon: 'car-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Combustível',
+    icon: 'trending-down-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+  {
+    title: 'Despesas',
+    icon: 'done-all-outline', // Modified icon to 'megaphone-outline'
+    link: '/pages/layout/stepper',
+  },
+
+
+
+
   {
     title: 'Layout',
     icon: 'layout-outline',
